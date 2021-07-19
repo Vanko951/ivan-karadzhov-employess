@@ -1,0 +1,42 @@
+### Maven / mvnw ###
+####################
+.mvn/
+target/
+
+## Various Files ##
+###################
+env.var.required
+local-developer.properties
+*~
+mvn.log
+
+### Eclipse / Spring Tools Suite ###
+####################################
+.project
+.classpath
+.apt_generated
+.factorypath
+.settings
+.springBeans
+.sts4-cache
+.checkstyle
+
+### IntelliJ IDEA ###
+#####################
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+################
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+###############
+.vscode/
+/.metadata/
