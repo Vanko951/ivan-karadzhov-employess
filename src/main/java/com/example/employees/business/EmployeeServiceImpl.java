@@ -58,7 +58,7 @@ public class EmployeeServiceImpl implements EmployeeService{
     
     @Override
     public void printBestTeam(MultipartFile file) {
-    	//Read all records data from uploaded file file
+    	//Read all records data from uploaded file
     	fileIO = new FileIOImpl();
     	List<DataRecord> records = new ArrayList<DataRecord>();
 		try {
@@ -80,8 +80,7 @@ public class EmployeeServiceImpl implements EmployeeService{
     }
     
     /** Method which save all records to the database using EmployeeRepository */
-    @Override
-    public void addEmployeeRecords(List<DataRecord> records) {
+    private void addEmployeeRecords(List<DataRecord> records) {
         employeeRepository.saveAll(records);
     }
     
